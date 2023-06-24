@@ -12,7 +12,7 @@ Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI program
 
 # Installation:
 
-You can use the [NuGet package]([url](https://www.nuget.org/packages/Cyrus/)):
+You can use the [NuGet package](https://www.nuget.org/packages/Cyrus/):
 ```shell
 dotnet add package Cyrus
 ```
