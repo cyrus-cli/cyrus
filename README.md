@@ -2,12 +2,13 @@
 Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI programs with C#. It is AOT-friendly, with a focus on simplicity and nice DX.
 
 ## Features:
-- Simple and minimalistic — you'll pick it up in an hour
-- Inspired by ASP.NET Core's Minimal API — a familiar interface
-- Robust argument parser — compliant with `getopt`
-- Performant and meticulously optimized — Cyrus has been coded with performance and snappiness in mind
-- AOT-friendly — make your fully-C# CLI program as snappy as those written in Go, Rust, etc.
-- Zero dependencies — Cyrus is written from scratch, no bloat whatsoever
+- 👌 Simple, elegant, minimalistic — you'll pick it up in an hour
+- 💎 Inspired by ASP.NET Core's Minimal API — a familiar and elegant interface
+- 🔥 Robust argument parser — compliant with `getopt`
+- 💉 Support for dependency injection and .NET's configuration abstractions — use the official tried-and-tested libraries
+- ⚡ Performant and meticulously optimized — Cyrus has been coded with performance and snappiness in mind
+- 💨 AOT-friendly — make your fully-C# CLI program as snappy as those written in Go, Rust, etc.
+- 0️⃣ Zero dependencies — Cyrus is written from scratch, no bloat whatsoever
 
 # Installation:
 
