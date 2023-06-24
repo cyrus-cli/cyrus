@@ -1,2 +1,11 @@
 # MrCli
 Mr. Cli — the simple .NET framework for building command-line applications
+```csharp
+app.MapCommand("restore {projectPath?}", (
+	CommandContext ctx,
+	string projectPath = ".",
+	[StandardInput] string? content = null,
+	[Name("foo")] bool shouldHaveFoo,
+	[Alias("q")] bool quiet = false,
+) => $"Done! {projectPath}");
+```
