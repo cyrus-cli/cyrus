@@ -1,3 +1,6 @@
+# What is Cyrus?
+Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI programs with C#. It is AOT-friendly, with a focus on simplicity and nice DX.
+
 ## Installation:
 
 ```shell
