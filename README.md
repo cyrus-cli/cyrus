@@ -10,5 +10,5 @@ app.MapCommand("restore {projectPath?}", (
 ) =>
 {
     return $"Done! {projectPath}";
-);
+});
 ```
