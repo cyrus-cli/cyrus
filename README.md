@@ -1,4 +1,9 @@
-# MrCli
+## Installation:
+
+```shell
+dotnet add package Cyrus
+```
+
 Mr. Cli — the simple .NET framework for building command-line applications
 ```csharp
 app.MapCommand("restore {projectPath?}", (
