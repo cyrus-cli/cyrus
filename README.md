@@ -12,8 +12,15 @@ Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI program
 
 # Installation:
 
+You can use the [NuGet package]([url](https://www.nuget.org/packages/Cyrus/)):
 ```shell
 dotnet add package Cyrus
+```
+
+Alternatively, you can install and then use Cyrus's project template:
+```
+dotnet new install Cyrus.Template
+dotnet new cli
 ```
 
 Mr. Cli — the simple .NET framework for building command-line applications
