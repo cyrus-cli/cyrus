@@ -1,5 +1,5 @@
 # Intro:
-Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI programs with C#. It is AOT-friendly, with a focus on simplicity and nice DX.
+Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI programs with C#. It is AOT-friendly, so your command-line app will run as soon as you hit *Enter*!
 
 ## Features:
 - 👌 Simple, elegant, minimalistic — you'll pick it up in an hour
