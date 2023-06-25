@@ -25,16 +25,18 @@ dotnet new install Cyrus.Template
 dotnet new cli
 ```
 
-Mr. Cli — the simple .NET framework for building command-line applications
-```csharp
-app.MapCommand("restore {projectPath?}", (
-    CommandContext ctx,
-    string projectPath = ".",
-    [StandardInput] string? content = null,
-    [Name("foo")] bool shouldHaveFoo,
-    [Alias("q")] bool quiet = false,
-) =>
-{
-    return $"Done! {projectPath}";
-});
-```
+# Concepts:
+
+### Overview:
+Cyrus apps (and most command-line apps in general) consist of three components:
+- **Commands** represent actions your program performs
+- **Arguments** are values passed to commands
+- **Options** modify the behavior of commands
+For example, in a Git command like `git clone URL --bare`:
+- `git` is the program/executable
+- `clone` is the command
+- `URL` is the argument
+- `--bare` is the option/flag
+
+### Commands:
+Commands are the m
