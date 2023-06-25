@@ -1,12 +1,12 @@
 # Intro:
 Cyrus *(pronounced **sigh-res**)* is a framework for building modern CLI programs with C#.
 
-It uses zero reflection at runtime, instead, Cyrus takes advantage of source generators to create the most optimized flow for your app at runtime, and more importantly, to be AOT-friendly out of the box; so that your program will feel as snappy as possible and respond instantaneously as soon as you hit *Enter*!
+Cyrus uses source generators for everything that other frameworks resort to reflection for. That way, it creates the most optimized flow for your app for startup and runtime, and more importantly, it makes it AOT-friendly out of the box; so that your program will feel as snappy as possible and respond instantaneously when you hit *Enter*!
 
 ## Features:
 - 💎 Simple, elegant, minimalistic — you'll pick it up in an hour, things just _make sense_
 - 🔥 Robust and *fast* argument parser — compliant with the de-facto standard [`getopts`](https://en.wikipedia.org/wiki/Getopts)
-- 100% reflection-free — Cyrus uses source generators for everything other frameworks use reflection for, it doesn't want to waste absolutely any time on startup!
+- 😍 100% reflection-free — to waste absolutely no time on startup!
 - 💉 Support for dependency injection and .NET's configuration abstractions — use the official tried-and-tested libraries
 - ⚡ Performant and meticulously optimized — being fast is Cyrus's main claim to fame!
 - 💨 AOT-friendly — compile your fully-C# CLI programs to native code, making them as snappy as those written in Go, Rust, etc.
