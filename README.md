@@ -40,3 +40,16 @@ For example, in a Git command like `git clone URL --bare`:
 
 ### Commands:
 Commands are the m
+
+# Future API:
+The vision that I have in mind is basically replicating an interface similar to that of ASP.NET Core's Minimal API; but that currently can't be made to work well with source generators and by extension NativeAOT. There seems to be a proposal (called interceptors — see [this](https://github.com/dotnet/csharplang/issues/7009)) whose main motivation is precisely to enable source generation in these kinds of scenarios (they give ASP.NET Core Minimal API as an example).
+
+So, right now we'll just have to wait for that proposal to make it into the language/framework before we can implement, but the prospect is for a simple Cyrus app to look like this — and for this to be able to be 100% NativeAOT-able and reflection-free:
+
+```csharp
+using Cyrus;
+
+var app = CliApp.Create();
+app.MapCommand("greet", (string name) => $"Hello, {name}!");
+return await app.RunAsync(args);
+```
