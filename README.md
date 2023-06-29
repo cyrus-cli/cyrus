@@ -49,12 +49,12 @@ So, right now we'll just have to wait for that proposal to make it into the lang
 ```csharp
 using Cyrus;
 
-var app = CliApp.Create();
+var app = new CliApp();
 
 app.MapCommand("greet", (string name) =>
 {
     return $"Hello, {name}!";
 });
 
-return await app.RunAsync(args);
+return await app.RunAsync();
 ```
