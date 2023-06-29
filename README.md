@@ -50,6 +50,11 @@ So, right now we'll just have to wait for that proposal to make it into the lang
 using Cyrus;
 
 var app = CliApp.Create();
-app.MapCommand("greet", (string name) => $"Hello, {name}!");
+
+app.MapCommand("greet", (string name) =>
+{
+  return $"Hello, {name}!";
+});
+
 return await app.RunAsync(args);
 ```
