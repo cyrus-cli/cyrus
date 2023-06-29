@@ -53,7 +53,7 @@ var app = CliApp.Create();
 
 app.MapCommand("greet", (string name) =>
 {
-  return $"Hello, {name}!";
+    return $"Hello, {name}!";
 });
 
 return await app.RunAsync(args);
