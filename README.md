@@ -7,7 +7,7 @@ Cyrus uses source generators for everything that other frameworks resort to refl
 - 💎 Simple, elegant, minimalistic — you'll pick it up in an hour, things just _make sense_
 - 🔥 Robust and *fast* argument parser — compliant with the de-facto standard [`getopts`](https://en.wikipedia.org/wiki/Getopts)
 - ✔ 100% reflection-free — to waste absolutely no time on startup!
-- ⭐ A familiar interface inspired by ASP.NET Core's Minimal API
+- ⭐ A familiar interface inspired by ASP.NET Core's Minimal API — with sensible defaults and conventions
 - 💉 Support for dependency injection and .NET's configuration abstractions — use the official tried-and-tested libraries
 - ⚡ Performant and meticulously optimized — being fast is Cyrus's main claim to fame!
 - 💨 AOT-friendly — compile your fully-C# CLI programs to native code, making them as snappy as those written in Go, Rust, etc.
